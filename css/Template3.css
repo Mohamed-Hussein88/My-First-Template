@@ -169,7 +169,7 @@ nav > ul > li > a::before {
     transition: 0.3s;
 }
 
-nav > ul > li > a:hover {
+nav > ul > li:hover {
     background-color: var(--background-color);
 }
 
@@ -206,8 +206,7 @@ nav .mega.container{
     visibility: hidden;
 }
 
-nav > ul li:last-of-type:hover + .mega.container,
-nav .container:hover{
+nav > ul > li:hover .mega.container{
     opacity: 1;
     top: 103%;
     visibility: visible;
