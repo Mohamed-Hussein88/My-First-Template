@@ -151,14 +151,14 @@ nav > ul {
     font-size: 18px;
 }
 
-nav > ul > li {
+nav > ul > li > a{
     display: block;
     padding: 20px;
     position: relative;
 }
 
 
-nav > ul > li::before {
+nav > ul > li > a::before {
     content: "";
     position: absolute;
     background-color: var(--main-color);
@@ -169,11 +169,11 @@ nav > ul > li::before {
     transition: 0.3s;
 }
 
-nav > ul > li:hover {
+nav > ul > li > a:hover {
     background-color: var(--background-color);
 }
 
-nav > ul > li:hover::before {
+nav > ul > li > a:hover::before {
     width: 100%;
 }
 
